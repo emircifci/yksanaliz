@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hesap Silme - Yksanaliz Pro TYT-AYT</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: linear-gradient(135deg, #ff6b35 0%, #f7931e 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+        .container {
+            background: white;
+            border-radius: 16px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            max-width: 600px;
+            width: 100%;
+            padding: 40px;
+        }
+        h1 {
+            color: #ff6b35;
+            margin-bottom: 20px;
+            font-size: 28px;
+        }
+        h2 {
+            color: #333;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            font-size: 20px;
+        }
+        p {
+            color: #666;
+            line-height: 1.6;
+            margin-bottom: 15px;
+        }
+        .method {
+            background: #f8f9fa;
+            border-left: 4px solid #ff6b35;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+        }
+        .method h3 {
+            color: #ff6b35;
+            margin-bottom: 10px;
+        }
+        .method ol {
+            margin-left: 20px;
+            color: #666;
+        }
+        .method li {
+            margin-bottom: 8px;
+        }
+        .email {
+            background: #fff3e0;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 15px 0;
+        }
+        .email a {
+            color: #ff6b35;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .email a:hover {
+            text-decoration: underline;
+        }
+        .warning {
+            background: #ffebee;
+            border-left: 4px solid #f44336;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 8px;
+        }
+        .warning strong {
+            color: #f44336;
+        }
+        .app-link {
+            display: inline-block;
+            background: #ff6b35;
+            color: white;
+            padding: 12px 24px;
+            border-radius: 8px;
+            text-decoration: none;
+            margin-top: 20px;
+            font-weight: bold;
+        }
+        .app-link:hover {
+            background: #e55a2b;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🗑️ Hesap Silme İsteği</h1>
+        
+        <p>
+            Yksanaliz Pro TYT-AYT uygulamasındaki hesabınızı ve tüm verilerinizi silmek istiyorsanız, 
+            aşağıdaki yöntemlerden birini kullanabilirsiniz.
+        </p>
+
+        <div class="method">
+            <h3>📱 Yöntem 1: Uygulama İçinden (Önerilen)</h3>
+            <ol>
+                <li>Yksanaliz Pro TYT-AYT uygulamasını açın</li>
+                <li>Giriş yapın (eğer yapmadıysanız)</li>
+                <li>Sol üstteki menü ikonuna tıklayın</li>
+                <li>"Ayarlar" seçeneğine gidin</li>
+                <li>Sayfanın en altına kaydırın</li>
+                <li>"Hesabımı Sil" butonuna tıklayın</li>
+                <li>Onay mesajlarını okuyun ve onaylayın</li>
+            </ol>
+            <p style="margin-top: 10px;">
+                <strong>Not:</strong> Bu işlem geri alınamaz ve tüm verileriniz kalıcı olarak silinir.
+            </p>
+        </div>
+
+        <div class="method">
+            <h3>📧 Yöntem 2: Email ile İletişim</h3>
+            <p>
+                Uygulamaya erişiminiz yoksa veya sorun yaşıyorsanız, aşağıdaki email adresine 
+                hesap silme talebinizi gönderebilirsiniz:
+            </p>
+            <div class="email">
+                <strong>Email:</strong> 
+                <a href="mailto:support@yksanaliz.com?subject=Hesap Silme İsteği&body=Merhaba,%0D%0A%0D%0AYksanaliz Pro TYT-AYT uygulamasındaki hesabımın silinmesini istiyorum.%0D%0A%0D%0AEmail adresim: [BURAYA EMAIL ADRESINIZI YAZIN]%0D%0A%0D%0ATeşekkürler.">
+                    support@yksanaliz.com
+                </a>
+            </div>
+            <p>
+                Email'inizde şunları belirtin:
+            </p>
+            <ol>
+                <li>Hesap silme isteğiniz</li>
+                <li>Kayıtlı email adresiniz</li>
+                <li>Kullanıcı adınız (varsa)</li>
+            </ol>
+        </div>
+
+        <div class="warning">
+            <strong>⚠️ Önemli Uyarılar:</strong>
+            <ul style="margin-left: 20px; margin-top: 10px;">
+                <li>Hesap silme işlemi geri alınamaz</li>
+                <li>Tüm verileriniz kalıcı olarak silinir (profil, sınav sonuçları, görevler, vb.)</li>
+                <li>Hesap silindikten sonra aynı email ile tekrar kayıt olabilirsiniz</li>
+                <li>İşlem genellikle 24-48 saat içinde tamamlanır</li>
+            </ul>
+        </div>
+
+        <h2>📋 Silinecek Veriler</h2>
+        <p>Aşağıdaki verileriniz kalıcı olarak silinir:</p>
+        <ul style="margin-left: 20px; color: #666;">
+            <li>Profil bilgileriniz (isim, email, telefon, vb.)</li>
+            <li>Tüm deneme sınav sonuçlarınız</li>
+            <li>Görevleriniz ve çalışma verileriniz</li>
+            <li>Topluluk gönderileriniz ve yorumlarınız</li>
+            <li>İstatistikleriniz ve ilerleme verileriniz</li>
+            <li>Arkadaşlık bağlantılarınız</li>
+        </ul>
+
+        <h2>❓ Sorularınız mı var?</h2>
+        <p>
+            Hesap silme işlemi hakkında sorularınız varsa, 
+            <a href="mailto:support@yksanaliz.com" style="color: #ff6b35;">support@yksanaliz.com</a> 
+            adresinden bizimle iletişime geçebilirsiniz.
+        </p>
+
+        <p style="margin-top: 30px; text-align: center;">
+            <a href="https://play.google.com/store/apps/details?id=com.emrhncfc.yksexamapp" class="app-link">
+                Uygulamayı İndir
+            </a>
+        </p>
+    </div>
+</body>
+</html>
+
